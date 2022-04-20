@@ -13,13 +13,15 @@
 12. Вывести в консоль item_4.
 13. Вывести в консоль сложение `item_3` и `item_4`.
 14. Вывести в консоль умножение `item_3` и `item_4`.
-* command: let item_1 = 5,
+* ```javascript
+command: let item_1 = 5,
     item_2 = 3;
     item_3 = item_1 + item_2,
     item_4 = 'Yolochka',
     result_1 = item_3+item_4,
     result_2 = item_3*item_4;
     console.log (item_1, item_2, item_3, item_4, result_1, result_2);
+    ```
 15. Создать переменную “item_5”
 16. Присвоить переменной item_5 переменную item_3
 17. Создать переменную item_6.
