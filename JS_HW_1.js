@@ -11,7 +11,7 @@ let item_1 = 5,
     console.log('item_6 == ', item_6, 'item_6_type == ', item_6_type),
     item_7 = item_6.toString(),
     item_7_type = typeof item_7;
-    console.log ('item_7 == ',  item_7,  'item_7_type == ',  item_7_type),
+    console.log ('item_7 == ',  item_7,  'item_7_type == ',  item_7_type);
     
     age_1 = 10,
     age_2 = 18,
