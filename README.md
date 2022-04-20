@@ -21,7 +21,7 @@ command: let item_1 = 5,
     result_1 = item_3+item_4,
     result_2 = item_3*item_4;
     console.log (item_1, item_2, item_3, item_4, result_1, result_2);
-    ```
+```
 15. Создать переменную “item_5”
 16. Присвоить переменной item_5 переменную item_3
 17. Создать переменную item_6.
