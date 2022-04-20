@@ -32,7 +32,16 @@ command: let item_1 = 5,
 22. Создать переменную item_7 и в ней преобразовать item_6 в String.
 23. Создать переменную item_7_type
 24. Присвоить переменной item_7_type тип переменной item_7
-25. Вывести в консоль тип данных item_7 в виде ——  “item_7 == ”  item_7,  “item_7_type == ”  item_7_type ——  
+25. Вывести в консоль тип данных item_7 в виде ——  “item_7 == ”  item_7,  “item_7_type == ”  item_7_type ——
+```javascript
+item_5 = item_3,
+    item_6 = 15,
+    item_6_type = typeof item_6;
+    console.log('item_6 == ', item_6, 'item_6_type == ', item_6_type),
+    item_7 = item_6.toString(),
+    item_7_type = typeof item_7;
+    console.log ('item_7 == ',  item_7,  'item_7_type == ',  item_7_type);
+``` 
 26. Создать переменную “age_1” и присвоить ей значение 10
 27. Создать переменную “age_2” и присвоить ей значение 18
 28. Создать переменную “age_3” и присвоить ей значение 60
@@ -41,3 +50,17 @@ command: let item_1 = 5,
 31. Если age_1 >=  age_2 и age_1 <  age_3, вывести в консоль “Welcome  !”
 32. Если age_1  > age_3, вывести в консоль “Keep calm and look Culture channel”.
 33. Иначе выводите “Technical work”.
+```javascript
+age_1 = 10,
+    age_2 = 18,
+    age_3 = 60;
+    if (age_1 < age_2) {
+    console.log ("You don't have access cause your age is" , age_1 + '.' + ' ' + "It’s less then need.")
+    }else if (age_1 >=  age_2 && age_1 < age_3){
+        console.log ('Welcome ! ')
+    }else if (age_1  > age_3){
+        console.log ('Keep calm and look Culture channel!')
+    }else{
+        console.log('Technical work')
+    }
+```
