@@ -13,7 +13,7 @@
 12. Вывести в консоль item_4.
 13. Вывести в консоль сложение `item_3` и `item_4`.
 14. Вывести в консоль умножение `item_3` и `item_4`.
-* ```javascript
+```javascript
 command: let item_1 = 5,
     item_2 = 3;
     item_3 = item_1 + item_2,
